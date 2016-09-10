@@ -7,6 +7,19 @@
 
 ---
 
+note: To generate files in the `_posts` subdirectory, use the included tool
+`jekyll-post.py`, adapted from a script by [Josh
+Branchaud](https://github.com/jbranchaud), using this syntax:
+
+```shell
+python2 ./jekyll-post.py -t "tag1 tag2 tag3" -w "title of post"
+```
+
+* input -t "tag1 tag2 tag2" generates tags to be included in the blog post.
+* the (optional) flag -w opens the generated blog post file (.md) in NeoVim.
+
+---
+
 ## License
 
 &copy; 2016 [Nima Hejazi](http://nimahejazi.org), Courtney Schiffman, Mengqiao
